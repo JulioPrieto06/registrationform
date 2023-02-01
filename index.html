@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
- 
+ <link rel="stylesheet" href="css/styles.css">
   <head>
     
   </head>
   <body>
+    <header>
     <h1 id="title">
       Survey Form Test
     </h1>
     <p id="description">This is my first certification </p>
+    </header>
+    <div class="form">
+    
   <form id="survey-form">
     <fieldset>
       <label id="name-label">Name<input type="text" id="name" placeholder="your name goes here" required/></label>
@@ -16,29 +20,30 @@
       <label id="number-label">Age<input type="number" id="number" min="13" max="99" placeholder="your age please" /></label>
     </fieldset>
      <fieldset>
+       <label>Have you being in USA before?</label>
       <select id="dropdown">
-      <option>chose 1</option>
-      <option>option 1</option>
+        <option>chose one</option>
+       <option>option 1</option>
       <option>option 2</option>
       </select>
     </fieldset>
-    <fieldset>
-      <label>yes<input type="radio" name="one" value="one"/></label>
-      <label>no<input type="radio" name="one" value="two"/></label>
+      <fieldset>
+        <label>Do you like our content?</label>
+      <label><input type="radio" name="one" value="one" class="inline"/>yes</label>
+      <label><input type="radio" name="one" value="two" class="inline"/>no</label>
     </fieldset>
     <fieldset>
-      <label>Blue <input type="checkbox" value="value"/> </label>
-      <label>Red<input type="checkbox" value="value"/></label>
-      <label>Green<input type="checkbox" value="value"/></label>
-      <label>Yellow<input type="checkbox" value="value"/></label>
+      <label>What is your favorite color?</label>
+      <label><input type="checkbox" value="one" class="inline"/>Blue </label>
+      <label><input type="checkbox" value="two" class="inline"/>Red</label>
+      <label><input type="checkbox" value="three" class="inline"/>Green</label>
+      <label><input type="checkbox" value="four" class="inline"/>Yellow</label>
     </fieldset>
     <fieldset>
-      <label>aditional comments</label>
-      <textarea>somethig else</textarea>
-    </fieldset>
-    <fieldset>
-      <button>Submit<input id="submit" type="submit"/></button>
-    </fieldset>
+      <label>Do you have a aditional comments</label>
+      <textarea rows="10" cols="30">somethig else</textarea>
+    </fieldset><input type="submit" id="submit" />
   </form>
+  </div>
   </body>
 </html>
