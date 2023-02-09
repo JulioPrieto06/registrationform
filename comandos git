@@ -41,3 +41,12 @@ git log --stat: cambios específicos en el archivo a partir de un commit.
 git show: cambios históricos y específicos hechos en un archivo.
 git diff “codigo de version 1” “codigo de version 2”: comparar cambios entre versiones.
 git diff: comparar directorio con staging.
+#Comandos útiles para tags, y alias de comandos
+git log --all --graph --decoralte --oneline: crea un arbol con todo el historial resumido de cada commit
+alias (nombre del alias que deceas) = "comando git": crea un alias o shortcut de un comando que tu deseas y se almacena de manera local
+git tag -a (nombre, por lo general inicia con v0.n) -m "comentario" (#commit): crea un tag sobre el commit deseado y agrega un comentario a dicha etiqueta
+git tag: te muestra los tags actuales
+git show--ref --tags: te muestra a que commit pertenecen los tags que tienes
+git push origin tags: enviamos los cambios de los tags a github
+git tag -d (nombre del tag): elimina el tag de manera local
+git push origin :refs/tags/(nombre del tag en github): elimina el tag en github, pero hacerlo despues de eliminarlo de manera local
