@@ -50,3 +50,6 @@ git show--ref --tags: te muestra a que commit pertenecen los tags que tienes
 git push origin tags: enviamos los cambios de los tags a github
 git tag -d (nombre del tag): elimina el tag de manera local
 git push origin :refs/tags/(nombre del tag en github): elimina el tag en github, pero hacerlo despues de eliminarlo de manera local
+#Comandos para ramas
+git show-branch: te muuestras las ramas existentes y sus cambios
+git show-branch --all: te muuestras las ramas existentes y sus cambios, pero con mayor detalle
