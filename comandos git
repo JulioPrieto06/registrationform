@@ -54,3 +54,5 @@ git push origin :refs/tags/(nombre del tag en github): elimina el tag en github,
 git show-branch: te muuestras las ramas existentes y sus cambios
 git show-branch --all: te muuestras las ramas existentes y sus cambios, pero con mayor detalle
 git rebase main: Fusiona la rama en la que estemos trabajando, a la rama master, de manera que la nueva rama deja de existir y pasa a formar parte de la historia de main
+git stash: guardo los cambios realizados en archivos de manera temporal, permitiendo moverse entre ramas sin necesidad de hacer commit
+git pop: regresa a los cambios que se guardaron en stash
