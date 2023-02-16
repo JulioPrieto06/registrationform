@@ -61,3 +61,4 @@ git stash list: te muestra la cantidad de stash que tienes almacedados
 git stash drop: elimina las stash que tengas almacenados
 git clean --dry-run: enlista los archivos que tiene rastrados como no necesarios para el proyecto en el que se está trabajando y que podría eliminar
 git clean -f: elimina os archivos antes enlistados para eliminacion
+git cherry-pick (# commit): trae o hace merge, unicamente del commit que desas y lo fuciona con la rama que deseas5
