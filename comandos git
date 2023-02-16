@@ -31,6 +31,7 @@ git checkout “codigo de version” “nombre del archivo”: volver a la últi
 git reset: vuelve al pasado sin posibilidad de volver al futuro, se debe usar con especificaciones.
 git reset --soft: vuelve a la versión en el repositorio, pero guarda los cambios en staging. Así, podemos aplicar actualizaciones a un nuevo commit.
 git reset --hard: todo vuelve a su versión anterior
+git reflog: me muestras todos los estados que han cambiado incluyendo archivos eliminados.
 git reset HEAD: saca los cambios de staging, pero no los borra. Es lo opuesto a git add.
 git rm: elimina los archivos, pero no su historial. Si queremos recuperar algo, solo hay que regresar. se utiliza así:
 git rm --cached elimina los archivos en staging pero los mantiene en el disco duro.
