@@ -56,3 +56,8 @@ git show-branch --all: te muuestras las ramas existentes y sus cambios, pero con
 git rebase main: Fusiona la rama en la que estemos trabajando, a la rama master, de manera que la nueva rama deja de existir y pasa a formar parte de la historia de main
 git stash: guardo los cambios realizados en archivos de manera temporal, permitiendo moverse entre ramas sin necesidad de hacer commit
 git pop: regresa a los cambios que se guardaron en stash
+git stash branch (nombre de la rama): guarda los cambios en stash en una nueva rama
+git stash list: te muestra la cantidad de stash que tienes almacedados
+git stash drop: elimina las stash que tengas almacenados
+git clean --dry-run: enlista los archivos que tiene rastrados como no necesarios para el proyecto en el que se está trabajando y que podría eliminar
+git clean -f: elimina os archivos antes enlistados para eliminacion
