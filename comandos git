@@ -64,3 +64,5 @@ git clean --dry-run: enlista los archivos que tiene rastrados como no necesarios
 git clean -f: elimina os archivos antes enlistados para eliminacion
 git cherry-pick (# commit): trae o hace merge, unicamente del commit que desas y lo fuciona con la rama que deseas
 git commit --amend: agrega el cambio en curso al último commit realizado anteriormente en caso de haber olvidado algo que agregar
+git grep (palabra): busqueda de palabras dentro de todo mi proyecto de git, teniedo una serie de usos como -n para conocer la línea donde se usó esa palabra, -c cuenta las veces que se usó
+git log -s (palabra): busca la cantidad de veces que usé esa palabra en commits.
